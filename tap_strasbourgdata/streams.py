@@ -13,6 +13,6 @@ class PiscinesStream(StrasbourgDataStream):
     """Stream representing frequentation of swimming pools in Strasbourg."""
     name = "piscines"
     path = "frequentation-en-temps-reel-des-piscines"
-    primary_keys = ["record_id"]
+    primary_keys = ["recordid"]
     replication_key = None
     schema_filepath = SCHEMAS_DIR / "piscines.json"
