@@ -10,7 +10,7 @@ from tap_strasbourgdata.streams import (
     PiscinesFrequentationStream
 )
 STREAM_TYPES = [
-    PiscinesStream,
+    #PiscinesStream,
     PiscinesFrequentationStream
 ]
 
