@@ -1,60 +1,112 @@
+
+
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "properties": {
-      "datasetid": {
-        "type": "string"
-      },
-      "recordid": {
-        "type": "string"
-      },
-      "fields": {
-        "type": "object",
-        "properties": {
-          "occupation": {
-            "type": "integer"
-          },
-          "isopen": {
-            "type": "integer"
-          },
-          "sigid": {
-            "type": "string"
-          },
-          "name": {
-            "type": "string"
-          },
-          "dayschedule": {
-            "type": "string"
-          },
-          "realtimestatus": {
-            "type": "string"
-          },
-          "types": {
-            "type": "string"
-          },
-          "updatedate": {
-            "type": "string"
-          }
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "datasetid": {
+      "type": "string"
+    },
+    "recordid": {
+      "type": "string"
+    },
+    "fields": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
         },
-        "required": [
-          "occupation",
-          "isopen",
-          "sigid",
-          "name",
-          "dayschedule",
-          "realtimestatus",
-          "types",
-          "updatedate"
-        ]
-      },
-      "record_timestamp": {
-        "type": "string"
+        "address": {
+          "type": "string"
+        },
+        "idsurfs": {
+          "type": "string"
+        },
+        "websitename": {
+          "type": "string"
+        },
+        "serviceandactivities": {
+          "type": "string"
+        },
+        "additionalinformation": {
+          "type": "string"
+        },
+        "normalizedalias": {
+          "type": "string"
+        },
+        "instagramurl": {
+          "type": "string"
+        },
+        "images": {
+          "type": "string"
+        },
+        "accessfordeaf": {
+          "type": "integer"
+        },
+        "facebookname": {
+          "type": "string"
+        },
+        "accessforwheelchair": {
+          "type": "integer"
+        },
+        "exceptionalschedule": {
+          "type": "string"
+        },
+        "websiteurl": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "mail": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "access": {
+          "type": "string"
+        },
+        "facebookurl": {
+          "type": "string"
+        },
+        "point_geo": {
+          "type": "array"
+        },
+        "characteristics": {
+          "type": "string"
+        },
+        "friendlyurl": {
+          "type": "string"
+        },
+        "schedulelinkname": {
+          "type": "string"
+        },
+        "accessfordisabled": {
+          "type": "string"
+        },
+        "imageurl": {
+          "type": "string"
+        },
+        "instagramname": {
+          "type": "string"
+        },
+        "schedulelinkurl": {
+          "type": "string"
+        },
+        "periods": {
+          "type": "string"
+        },
+        "hasurlschedule": {
+          "type": "integer"
+        },
+        "accessfordeficient": {
+          "type": "integer"
+        }
       }
     },
-    "required": [
-      "datasetid",
-      "recordid",
-      "fields",
-      "record_timestamp"
-    ]
+    "record_timestamp": {
+      "type": "string"
+    }
+  }
 }

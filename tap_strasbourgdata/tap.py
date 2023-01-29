@@ -6,10 +6,12 @@ from singer_sdk import Tap, Stream
 from singer_sdk import typing as th  # JSON schema typing helpers
 from tap_strasbourgdata.streams import (
     StrasbourgDataStream,
-    PiscinesStream
+    PiscinesStream,
+    PiscinesFrequentationStream
 )
 STREAM_TYPES = [
-    PiscinesStream
+    PiscinesStream,
+    PiscinesFrequentationStream
 ]
 
 

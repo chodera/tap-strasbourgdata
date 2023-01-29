@@ -1,0 +1,60 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "datasetid": {
+        "type": "string"
+      },
+      "recordid": {
+        "type": "string"
+      },
+      "fields": {
+        "type": "object",
+        "properties": {
+          "occupation": {
+            "type": "integer"
+          },
+          "isopen": {
+            "type": "integer"
+          },
+          "sigid": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "dayschedule": {
+            "type": "string"
+          },
+          "realtimestatus": {
+            "type": "string"
+          },
+          "types": {
+            "type": "string"
+          },
+          "updatedate": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "occupation",
+          "isopen",
+          "sigid",
+          "name",
+          "dayschedule",
+          "realtimestatus",
+          "types",
+          "updatedate"
+        ]
+      },
+      "record_timestamp": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "datasetid",
+      "recordid",
+      "fields",
+      "record_timestamp"
+    ]
+}
